@@ -27,7 +27,7 @@ GtMyExamples >> run [
 						h: (scaleH scale: gridX)
 						s: (scaleS scale: (height - gridY))
 						v: 1);
-					path: (gridX @ gridY extent: stepX @ stepY)  ;
+					path: (gridX @ gridY extent: stepX @ stepY + 1)  ;
 					draw
 			]
 		].
@@ -36,8 +36,8 @@ GtMyExamples >> run [
 	root 
 		when: BlMouseMoveEvent
 		do: [:evt |
-			stepX := evt parentPosition x + 10.
-			stepY := evt parentPosition y + 10.
+			stepX := evt parentPosition x + 4.
+			stepY := evt parentPosition y + 4.
 			root invalidate
 		].
 	
