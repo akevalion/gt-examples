@@ -1175,7 +1175,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-01-16T15:27:04.191769-04:00"
+												"dateAndTimeString" : "2024-01-16T20:07:01.29777-04:00"
 											}
 										},
 										"editEmail" : {
@@ -1186,85 +1186,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-01-16T15:27:06.768857-04:00"
+												"dateAndTimeString" : "2024-01-16T20:07:11.389096-04:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "aNgs2nbLDQCtTYbzBdEQNw=="
+											"uidString" : "HlRcw3rLDQCHpN5uDkyfxg=="
 										},
-										"code" : "GtMyExamples new runWheel\r"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-01-16T15:26:57.768524-04:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-01-16T15:26:57.768524-04:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "S8xj2HbLDQCss/89BdEQNw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-01-16T15:47:44.821938-04:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-01-16T15:47:46.979511-04:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "GFgfJHfLDQCuFWkHBdEQNw=="
-										},
-										"code" : "element := BlSpartaElement new.\relement rendering: [ :aCanvas :anElement |\r\taCanvas fill\r\t\tpaint: Color red;\r\t\tpath: anElement bounds asRectangle;\r\t\tdraw ].\relement"
+										"code" : "GtMyExamples"
 									},
 									{
 										"__type" : "textSnippet",
