@@ -1186,14 +1186,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-01-16T20:07:11.389096-04:00"
+												"dateAndTimeString" : "2024-01-16T20:07:15.23034-04:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "HlRcw3rLDQCHpN5uDkyfxg=="
 										},
-										"code" : "GtMyExamples"
+										"code" : "GtMyExamples new runWheel"
 									},
 									{
 										"__type" : "textSnippet",
@@ -1264,6 +1264,186 @@
 								"__type" : "textStyle"
 							},
 							"string" : "###Color spectrum in a circle"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T22:29:38.380201-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T22:31:02.696204-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "7RBnwXzLDQCJle4pDkyfxg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Last example is related to process and image and plot it using lines"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T23:13:40.436768-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T23:53:23.054432-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "YJ3hXn3LDQC1/ZgTB0uDlg=="
+										},
+										"code" : "img := ImageReadWriter formFromFileNamed: '/Users/azazael/Downloads/gato.jpg'.\nnewImg := img scaledToSize: (img extent /  10) asIntegerPoint.\n\n'/Users/azazael/Downloads/scaledGato.jpg' asFileReference binaryWriteStreamDo: [ :s |\n\tPluginBasedJPEGReadWriter putForm: newImg onStream: s \n\t ]"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T22:35:17.981941-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T22:40:48.841175-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "tfCk1XzLDQCLdmqUDkyfxg=="
+										},
+										"code" : "GtMyExamples new runPixmap"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T22:35:10.64164-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-01-16T22:35:10.64164-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "akd/xnzLDQCLRQuVDkyfxg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : ""
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-01-16T15:24:47.87093-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-01-16T22:29:26.196179-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6MIM0nbLDQCnl3cvBdEQNw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "###Graphic from pixel values"
 						}
 					]
 				},
@@ -1312,7 +1492,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-16T15:24:47.87093-04:00"
+						"dateAndTimeString" : "2024-01-16T22:29:20.855012-04:00"
 					}
 				},
 				"editEmail" : {
@@ -1323,12 +1503,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-16T15:24:47.87093-04:00"
+						"dateAndTimeString" : "2024-01-16T22:29:20.855012-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "6MIM0nbLDQCnl3cvBdEQNw=="
+					"uidString" : "VqhbwHzLDQCJYQBTDkyfxg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"

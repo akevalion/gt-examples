@@ -45,6 +45,49 @@ GtMyExamples >> run [
 ]
 
 { #category : #accessing }
+GtMyExamples >> runPixmap [
+	<gtExample>
+	| path image elementExtent tileExtent pic wScale|
+	path := '/Users/azazael/Downloads/scaled.jpg'.
+	image := ImageReadWriter formFromFileNamed: path.
+	elementExtent := image extent * 3.7.
+	pic := BlSpartaElement new.
+	pic size: elementExtent.
+	wScale := NSScale linear domain: {0. 0.132340734}; range: {10. 0.1}.
+	tileExtent := elementExtent/image extent.
+	pic rendering: [:canvas :element |
+		| max min |
+		max := 0.
+		min := 10.
+		1 to: image width by: 2.5 do: [:gridX |
+			1 to: image height by: 2.5 do: [:gridY |
+				| pos c greyScale svgPath |
+				pos := gridX @ gridY * tileExtent.
+				c := image colorAt: gridX@gridY.
+				greyScale := c red*0.222 + c green*0.707 + c blue*0.071.
+				max := greyScale max: max.
+				min := greyScale min: min.
+				svgPath := canvas path
+					absolute;
+					moveTo: pos;
+					"lineTo: pos + (wScale scale: greyScale);"
+					lineTo: pos + 5;
+					build.
+				canvas stroke
+					capRound;
+					width: (wScale scale: greyScale);
+					"paint: Color black;"
+					paint: c;
+					path: svgPath;
+					draw.
+			].
+		].
+		
+	].
+	^ pic
+]
+
+{ #category : #accessing }
 GtMyExamples >> runWheel [
 	<gtExample>
 	| wheel segmentCount mousePosition radius center width height
